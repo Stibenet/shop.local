@@ -9,5 +9,5 @@ $controllerName = isset($_GET['controller']) ?
 
 //Определение с какой функцией работать
 $actionName = isset($_GET['action']) ? $_GET['action'] : 'Index';
-
+//d($smarty);
 loadPage($smarty, $controllerName, $actionName);
